@@ -1,5 +1,5 @@
 $(document).ready(function() {
-  const apiRoot = 'https://dry-reaches-62071.herokuapp.com/v1/tasks/';
+  const apiRoot = 'https://dry-reaches-62071.herokuapp.com/v1/';
   const trelloApiRoot = 'https://dry-reaches-62071.herokuapp.com/v1/trello/';
   const datatableRowTemplate = $('[data-datatable-row-template]').children()[0];
   const $tasksContainer = $('[data-tasks-container]');
